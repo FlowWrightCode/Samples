@@ -1,4 +1,4 @@
-namespace Sample_Code_App
+namespace FlowWright_Code_Samples
 {
     partial class Main
     {

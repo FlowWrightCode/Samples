@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Sample_CodFlowWright_Code_Samplese_App
+namespace FlowWright_Code_Samples
 {
     public partial class RenderDefinition : Form
     {

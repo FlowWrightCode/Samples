@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sample_Code_App
+namespace FlowWright_Code_Samples
 {
     public class clsModGlobal
     {
