@@ -97,6 +97,7 @@ namespace FlowWright_Code_Samples
             this.btnWFDefValidate.TabIndex = 10;
             this.btnWFDefValidate.Text = "Validate Definition";
             this.btnWFDefValidate.UseVisualStyleBackColor = true;
+            this.btnWFDefValidate.Click += new System.EventHandler(this.btnWFDefValidate_Click);
             // 
             // btnExportWFDef
             // 
@@ -106,6 +107,7 @@ namespace FlowWright_Code_Samples
             this.btnExportWFDef.TabIndex = 9;
             this.btnExportWFDef.Text = "Export Definition";
             this.btnExportWFDef.UseVisualStyleBackColor = true;
+            this.btnExportWFDef.Click += new System.EventHandler(this.btnExportWFDef_Click);
             // 
             // btnWFDefGetInsts
             // 
@@ -115,6 +117,7 @@ namespace FlowWright_Code_Samples
             this.btnWFDefGetInsts.TabIndex = 8;
             this.btnWFDefGetInsts.Text = "Get Instances";
             this.btnWFDefGetInsts.UseVisualStyleBackColor = true;
+            this.btnWFDefGetInsts.Click += new System.EventHandler(this.btnWFDefGetInsts_Click);
             // 
             // btnWFDefRemove
             // 
@@ -124,6 +127,7 @@ namespace FlowWright_Code_Samples
             this.btnWFDefRemove.TabIndex = 7;
             this.btnWFDefRemove.Text = "Remove Definition";
             this.btnWFDefRemove.UseVisualStyleBackColor = true;
+            this.btnWFDefRemove.Click += new System.EventHandler(this.btnWFDefRemove_Click);
             // 
             // btnWFDefCopy
             // 
@@ -133,6 +137,7 @@ namespace FlowWright_Code_Samples
             this.btnWFDefCopy.TabIndex = 6;
             this.btnWFDefCopy.Text = "Copy Definition";
             this.btnWFDefCopy.UseVisualStyleBackColor = true;
+            this.btnWFDefCopy.Click += new System.EventHandler(this.btnWFDefCopy_Click);
             // 
             // btnWFDefGetSubs
             // 
@@ -142,6 +147,7 @@ namespace FlowWright_Code_Samples
             this.btnWFDefGetSubs.TabIndex = 5;
             this.btnWFDefGetSubs.Text = "Get Sub-Workflows";
             this.btnWFDefGetSubs.UseVisualStyleBackColor = true;
+            this.btnWFDefGetSubs.Click += new System.EventHandler(this.btnWFDefGetSubs_Click);
             // 
             // btnWFDefHistory
             // 
@@ -151,6 +157,7 @@ namespace FlowWright_Code_Samples
             this.btnWFDefHistory.TabIndex = 4;
             this.btnWFDefHistory.Text = "Get WF Definition History";
             this.btnWFDefHistory.UseVisualStyleBackColor = true;
+            this.btnWFDefHistory.Click += new System.EventHandler(this.btnWFDefHistory_Click);
             // 
             // btnWFDefProps
             // 
@@ -160,6 +167,7 @@ namespace FlowWright_Code_Samples
             this.btnWFDefProps.TabIndex = 3;
             this.btnWFDefProps.Text = "Get WF Definition Properties";
             this.btnWFDefProps.UseVisualStyleBackColor = true;
+            this.btnWFDefProps.Click += new System.EventHandler(this.btnWFDefProps_Click);
             // 
             // btnGetWFDefusingName
             // 
@@ -169,6 +177,7 @@ namespace FlowWright_Code_Samples
             this.btnGetWFDefusingName.TabIndex = 2;
             this.btnGetWFDefusingName.Text = "Get WF Definition using Name";
             this.btnGetWFDefusingName.UseVisualStyleBackColor = true;
+            this.btnGetWFDefusingName.Click += new System.EventHandler(this.btnGetWFDefusingName_Click);
             // 
             // btnWFDefGetusingID
             // 
@@ -178,6 +187,7 @@ namespace FlowWright_Code_Samples
             this.btnWFDefGetusingID.TabIndex = 1;
             this.btnWFDefGetusingID.Text = "Get WF Definition Using ID";
             this.btnWFDefGetusingID.UseVisualStyleBackColor = true;
+            this.btnWFDefGetusingID.Click += new System.EventHandler(this.btnWFDefGetusingID_Click);
             // 
             // btnCreateWFDef
             // 
