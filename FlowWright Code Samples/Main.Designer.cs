@@ -30,16 +30,16 @@ namespace FlowWright_Code_Samples
         {
             this.oTabs = new System.Windows.Forms.TabControl();
             this.wfDefTab = new System.Windows.Forms.TabPage();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.btnGetWFDefUsingID = new System.Windows.Forms.Button();
+            this.btnWFDefValidate = new System.Windows.Forms.Button();
+            this.btnExportWFDef = new System.Windows.Forms.Button();
+            this.btnWFDefGetInsts = new System.Windows.Forms.Button();
+            this.btnWFDefRemove = new System.Windows.Forms.Button();
+            this.btnWFDefCopy = new System.Windows.Forms.Button();
+            this.btnWFDefGetSubs = new System.Windows.Forms.Button();
+            this.btnWFDefHistory = new System.Windows.Forms.Button();
+            this.btnWFDefProps = new System.Windows.Forms.Button();
+            this.btnGetWFDefusingName = new System.Windows.Forms.Button();
+            this.btnWFDefGetusingID = new System.Windows.Forms.Button();
             this.btnCreateWFDef = new System.Windows.Forms.Button();
             this.wfInstTab = new System.Windows.Forms.TabPage();
             this.formDefTab = new System.Windows.Forms.TabPage();
@@ -70,16 +70,16 @@ namespace FlowWright_Code_Samples
             // 
             // wfDefTab
             // 
-            this.wfDefTab.Controls.Add(this.button10);
-            this.wfDefTab.Controls.Add(this.button11);
-            this.wfDefTab.Controls.Add(this.button12);
-            this.wfDefTab.Controls.Add(this.button5);
-            this.wfDefTab.Controls.Add(this.button6);
-            this.wfDefTab.Controls.Add(this.button7);
-            this.wfDefTab.Controls.Add(this.button8);
-            this.wfDefTab.Controls.Add(this.button3);
-            this.wfDefTab.Controls.Add(this.button4);
-            this.wfDefTab.Controls.Add(this.btnGetWFDefUsingID);
+            this.wfDefTab.Controls.Add(this.btnWFDefValidate);
+            this.wfDefTab.Controls.Add(this.btnExportWFDef);
+            this.wfDefTab.Controls.Add(this.btnWFDefGetInsts);
+            this.wfDefTab.Controls.Add(this.btnWFDefRemove);
+            this.wfDefTab.Controls.Add(this.btnWFDefCopy);
+            this.wfDefTab.Controls.Add(this.btnWFDefGetSubs);
+            this.wfDefTab.Controls.Add(this.btnWFDefHistory);
+            this.wfDefTab.Controls.Add(this.btnWFDefProps);
+            this.wfDefTab.Controls.Add(this.btnGetWFDefusingName);
+            this.wfDefTab.Controls.Add(this.btnWFDefGetusingID);
             this.wfDefTab.Controls.Add(this.btnCreateWFDef);
             this.wfDefTab.Location = new System.Drawing.Point(8, 39);
             this.wfDefTab.Name = "wfDefTab";
@@ -89,95 +89,95 @@ namespace FlowWright_Code_Samples
             this.wfDefTab.Text = "Workflow Definitions";
             this.wfDefTab.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // btnWFDefValidate
             // 
-            this.button10.Location = new System.Drawing.Point(29, 1056);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(286, 75);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btnWFDefValidate.Location = new System.Drawing.Point(29, 848);
+            this.btnWFDefValidate.Name = "btnWFDefValidate";
+            this.btnWFDefValidate.Size = new System.Drawing.Size(286, 75);
+            this.btnWFDefValidate.TabIndex = 10;
+            this.btnWFDefValidate.Text = "Validate Definition";
+            this.btnWFDefValidate.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // btnExportWFDef
             // 
-            this.button11.Location = new System.Drawing.Point(29, 951);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(286, 75);
-            this.button11.TabIndex = 9;
-            this.button11.Text = "button11";
-            this.button11.UseVisualStyleBackColor = true;
+            this.btnExportWFDef.Location = new System.Drawing.Point(29, 951);
+            this.btnExportWFDef.Name = "btnExportWFDef";
+            this.btnExportWFDef.Size = new System.Drawing.Size(286, 75);
+            this.btnExportWFDef.TabIndex = 9;
+            this.btnExportWFDef.Text = "Export Definition";
+            this.btnExportWFDef.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // btnWFDefGetInsts
             // 
-            this.button12.Location = new System.Drawing.Point(29, 851);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(286, 75);
-            this.button12.TabIndex = 8;
-            this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
+            this.btnWFDefGetInsts.Location = new System.Drawing.Point(29, 1054);
+            this.btnWFDefGetInsts.Name = "btnWFDefGetInsts";
+            this.btnWFDefGetInsts.Size = new System.Drawing.Size(286, 75);
+            this.btnWFDefGetInsts.TabIndex = 8;
+            this.btnWFDefGetInsts.Text = "Get Instances";
+            this.btnWFDefGetInsts.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnWFDefRemove
             // 
-            this.button5.Location = new System.Drawing.Point(29, 750);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(286, 75);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnWFDefRemove.Location = new System.Drawing.Point(29, 750);
+            this.btnWFDefRemove.Name = "btnWFDefRemove";
+            this.btnWFDefRemove.Size = new System.Drawing.Size(286, 75);
+            this.btnWFDefRemove.TabIndex = 7;
+            this.btnWFDefRemove.Text = "Remove Definition";
+            this.btnWFDefRemove.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnWFDefCopy
             // 
-            this.button6.Location = new System.Drawing.Point(29, 650);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(286, 75);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnWFDefCopy.Location = new System.Drawing.Point(29, 650);
+            this.btnWFDefCopy.Name = "btnWFDefCopy";
+            this.btnWFDefCopy.Size = new System.Drawing.Size(286, 75);
+            this.btnWFDefCopy.TabIndex = 6;
+            this.btnWFDefCopy.Text = "Copy Definition";
+            this.btnWFDefCopy.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnWFDefGetSubs
             // 
-            this.button7.Location = new System.Drawing.Point(29, 545);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(286, 75);
-            this.button7.TabIndex = 5;
-            this.button7.Text = "Get Sub-Workflows";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnWFDefGetSubs.Location = new System.Drawing.Point(29, 545);
+            this.btnWFDefGetSubs.Name = "btnWFDefGetSubs";
+            this.btnWFDefGetSubs.Size = new System.Drawing.Size(286, 75);
+            this.btnWFDefGetSubs.TabIndex = 5;
+            this.btnWFDefGetSubs.Text = "Get Sub-Workflows";
+            this.btnWFDefGetSubs.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnWFDefHistory
             // 
-            this.button8.Location = new System.Drawing.Point(29, 445);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(286, 75);
-            this.button8.TabIndex = 4;
-            this.button8.Text = "Get WF Definition History";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnWFDefHistory.Location = new System.Drawing.Point(29, 445);
+            this.btnWFDefHistory.Name = "btnWFDefHistory";
+            this.btnWFDefHistory.Size = new System.Drawing.Size(286, 75);
+            this.btnWFDefHistory.TabIndex = 4;
+            this.btnWFDefHistory.Text = "Get WF Definition History";
+            this.btnWFDefHistory.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnWFDefProps
             // 
-            this.button3.Location = new System.Drawing.Point(29, 336);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(286, 75);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Get WF Definition Properties";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnWFDefProps.Location = new System.Drawing.Point(29, 336);
+            this.btnWFDefProps.Name = "btnWFDefProps";
+            this.btnWFDefProps.Size = new System.Drawing.Size(286, 75);
+            this.btnWFDefProps.TabIndex = 3;
+            this.btnWFDefProps.Text = "Get WF Definition Properties";
+            this.btnWFDefProps.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnGetWFDefusingName
             // 
-            this.button4.Location = new System.Drawing.Point(29, 236);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(286, 75);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Get WF Definition using Name";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnGetWFDefusingName.Location = new System.Drawing.Point(29, 236);
+            this.btnGetWFDefusingName.Name = "btnGetWFDefusingName";
+            this.btnGetWFDefusingName.Size = new System.Drawing.Size(286, 75);
+            this.btnGetWFDefusingName.TabIndex = 2;
+            this.btnGetWFDefusingName.Text = "Get WF Definition using Name";
+            this.btnGetWFDefusingName.UseVisualStyleBackColor = true;
             // 
-            // btnGetWFDefUsingID
+            // btnWFDefGetusingID
             // 
-            this.btnGetWFDefUsingID.Location = new System.Drawing.Point(29, 131);
-            this.btnGetWFDefUsingID.Name = "btnGetWFDefUsingID";
-            this.btnGetWFDefUsingID.Size = new System.Drawing.Size(286, 75);
-            this.btnGetWFDefUsingID.TabIndex = 1;
-            this.btnGetWFDefUsingID.Text = "Get WF Definition Using ID";
-            this.btnGetWFDefUsingID.UseVisualStyleBackColor = true;
+            this.btnWFDefGetusingID.Location = new System.Drawing.Point(29, 131);
+            this.btnWFDefGetusingID.Name = "btnWFDefGetusingID";
+            this.btnWFDefGetusingID.Size = new System.Drawing.Size(286, 75);
+            this.btnWFDefGetusingID.TabIndex = 1;
+            this.btnWFDefGetusingID.Text = "Get WF Definition Using ID";
+            this.btnWFDefGetusingID.UseVisualStyleBackColor = true;
             // 
             // btnCreateWFDef
             // 
@@ -187,6 +187,7 @@ namespace FlowWright_Code_Samples
             this.btnCreateWFDef.TabIndex = 0;
             this.btnCreateWFDef.Text = "Create WF Definition";
             this.btnCreateWFDef.UseVisualStyleBackColor = true;
+            this.btnCreateWFDef.Click += new System.EventHandler(this.btnCreateWFDef_Click);
             // 
             // wfInstTab
             // 
@@ -279,16 +280,16 @@ namespace FlowWright_Code_Samples
         private System.Windows.Forms.TabPage usersTab;
         private System.Windows.Forms.TabPage rolesTab;
         private System.Windows.Forms.TabPage BITab;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button btnGetWFDefUsingID;
+        private System.Windows.Forms.Button btnWFDefValidate;
+        private System.Windows.Forms.Button btnExportWFDef;
+        private System.Windows.Forms.Button btnWFDefGetInsts;
+        private System.Windows.Forms.Button btnWFDefRemove;
+        private System.Windows.Forms.Button btnWFDefCopy;
+        private System.Windows.Forms.Button btnWFDefGetSubs;
+        private System.Windows.Forms.Button btnWFDefHistory;
+        private System.Windows.Forms.Button btnWFDefProps;
+        private System.Windows.Forms.Button btnGetWFDefusingName;
+        private System.Windows.Forms.Button btnWFDefGetusingID;
         private System.Windows.Forms.Button btnCreateWFDef;
     }
 }

@@ -1,3 +1,4 @@
+using cDevWorkflow.cDevDeAPI;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,26 +16,26 @@ namespace FlowWright_Code_Samples
 {
     public partial class Main : Form
     {
+        deDesign oDesign = null;
+
         public Main()
         {
             InitializeComponent();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            // Click on the link below to continue learning how to build a desktop app using WinForms!
-            System.Diagnostics.Process.Start("http://aka.ms/dotnet-get-started-desktop");
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Thanks!");
-        }
 
         private void Main_Load(object sender, EventArgs e)
         {
+            oDesign = new deDesign(clsModGlobal.getConnStr(), "admin");
+        }
 
+        private void btnCreateWFDef_Click(object sender, EventArgs e)
+        {
+            deDefinition oDef = oDesign.createDefinition("Test Definition");
+            if(oDef != null)
+            {
+                MessageBox.Show("Definition was created...");
+            }
         }
     }
 }
